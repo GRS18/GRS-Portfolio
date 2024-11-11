@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@GRS</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./grs.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="#">
+            <img src="./Images/logo.jpeg" alt="Logo" style="width: 125px; height: 100px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#"><b class="n1">Home</b></a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><b class="n1">About</b></a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><b class="n1">Contact</b></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section class="profile-section">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <h1><b>Girish Shinde</b></h1>
+                <h4>Java Developer</h4>
+                <p>I am a dedicated CDAC student with a background in Computer Engineering. With a strong foundation in programming and a passion for solving real-world problems through technology, I strive to develop efficient, user-centric solutions. I
+                    am particularly skilled in Java, Python, and web development and am keen on expanding my expertise in software development and emerging technologies. make it simple and more attractive</p>
+                </p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="./Images/GRS pic.jpeg" class="img-fluid profile-photo" alt="Profile Photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section with Modals -->
+    <section class="education-section">
+        <div class="tabs">
+
+            <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#sscModal">SSC</button>
+            <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#hscModal">HSC</button>
+            <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#beModal">BE</button>
+        </div>
+    </section>
+
+    <!-- SSC Modal -->
+    <div class="modal fade" id="sscModal" tabindex="-1" aria-labelledby="sscModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sscModalLabel">SSC Education</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body d-flex">
+                    <img src="./Images/School.avif" alt="SSC Image" class="mr-3" width="300px">
+                    <p>Achieved 85.80% with Distinction in SSC from A. T. Zambre madhyamik vidyalay, jalgaon. Demonstrated excellence in various subjects.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HSC Modal -->
+    <div class="modal fade" id="hscModal" tabindex="-1" aria-labelledby="hscModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="hscModalLabel">HSC Education</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body d-flex">
+                    <img src="./Images/HSC.jpg" alt="HSC Image" class="mr-3" width="350px">
+                    <p>Achieved 65% in HSC with a strong focus on Science and Mathematics from M. J. College, Jalgaon</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BE Modal -->
+    <div class="modal fade" id="beModal" tabindex="-1" aria-labelledby="BEModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="BEModalLabel">BE Education</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body d-flex">
+                    <img src="./Images/SSBT.png" alt="BE Image" class="mr-3">
+                    <p>Achieved 8.77 CGPA in BE Computer Engineering from SSBT's College of Engineering and Technology, Jalgaon.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Skill Set Section with Carousel -->
+    <section class="skillset-section">
+        <div id="skillCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-around">
+                        <div class="carousel-item-box">
+                            <img width="150 " height="150 " src="https://img.icons8.com/color/150/c-plus-plus-logo.png " alt="c-plus-plus-logo " />
+                            <h5>c/c++</h5>
+                        </div>
+                        <div class="carousel-item-box">
+                            <img width="150 " height="150 " src="https://img.icons8.com/color/150/java-coffee-cup-logo--v1.png " alt="java-coffee-cup-logo--v1 " />
+                            <h5>Java</h5>
+                        </div>
+                        <div class="carousel-item-box">
+                            <img width="150 " height="150 " src="https://img.icons8.com/color/150/python--v1.png " alt="python--v1 " />
+                            <h5>Python</h5>
+                        </div>
+                        <div class="carousel-item-box">
+                            <img width="150 " height="150 " src="https://img.icons8.com/color/150/javascript--v1.png " alt="javascript--v1 " />
+                            <h5>JavaScript</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-around">
+                        <div class="carousel-item-box">
+                            <img width="150 " height="150 " src="https://img.icons8.com/color/150/html-5--v1.png " alt="html-5--v1 " />
+                            <h5>HTML</h5>
+                        </div>
+                        <div class="carousel-item-box">
+                            <img width="150 " height="150 " src="https://img.icons8.com/color/150/css3.png " alt="css3 " />
+                            <h5>CSS</h5>
+                        </div>
+                        <div class="carousel-item-box">
+                            <img width="150 " height="150 " src="https://img.icons8.com/color/150/bootstrap--v2.png " alt="bootstrap--v2 " />
+                            <h5>Boostrap</h5>
+                        </div>
+                        <div class="carousel-item-box">
+                            <img width="150 " height="150 " src="https://img.icons8.com/color/150/mysql-logo.png " alt="mysql-logo " />
+                            <h5>MySQL</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-around">
+                        <div class="carousel-item-box">
+                            <img width="150 " height="150 " src="https://img.icons8.com/ios-glyphs/150/react.png " alt="react " />
+                            <h5>React JS</h5>
+                        </div>
+                        <div class="carousel-item-box">
+                            <img width="150 " height="150 " src="https://img.icons8.com/color/150/net-framework.png " alt="net-framework " />
+                            <h5>.Net</h5>
+                        </div>
+                        <div class="carousel-item-box">
+                            <img width="150 " height="150 " src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-color-tal-revivo.png " alt="external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-color-tal-revivo "
+                            />
+                            <h5>jQuery</h5>
+                        </div>
+                        <div class="carousel-item-box">
+                            <img width="150 " height="150 " src="https://img.icons8.com/external-phatplus-lineal-phatplus/64/external-data-big-data-phatplus-lineal-phatplus-3.png " alt="external-data-big-data-phatplus-lineal-phatplus-3 " />
+                            <h5>DSA</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Controls -->
+            <a class="carousel-control-prev" href="#skillCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#skillCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Contact Form</h5>
+                <form class="contact-form">
+                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="email" class="form-control" placeholder="Email">
+                    <button type="submit" class="btn btn-primary btn-block"><b>Send</b></button>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <a href="https://drive.google.com/drive/folders/1mnCpG5tMaWUC4raOQ00tBOlWV5tlOf2W?usp=sharing">
+                    <button class="btn btn-secondary btn-block mt-4"><b>Download</b></button>
+                </a>
+            </div>
+            <div class="col-md-4" id="cr">
+                <p><b>Contact No : </b>9552315337</p>
+                <p><b>Email :</b>girishshinde186@gmail.com </p>
+                <a href="https://github.com/GRS18" target="_blank" class="btn btn-dark btn-block mt-4">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/girish-shinde-8a7907227/" target="_blank" class="btn btn-primary btn-block mt-2">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        Design by: Girish Shinde
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
+</html>
